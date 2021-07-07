@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @sg-agadir
 - 👀 I’m interested in everything
-- 🌱 I’m currently learning GoLang, NGRX, Unqork, Dacker, and flutter
-- 💞️ I’m looking to collaborate on DaVinci
+- 🌱 I’m currently learning GoLang, NGRX, Unqork, docker, and flutter
 - 📫 You can reach me on agadir@sgintl.com
 
 <!---
