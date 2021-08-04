@@ -1,0 +1,51 @@
+<html>
+
+<div class="gContainer">
+  <div class="materialIcons">
+  <mat-icon class="icon-display">add_alert</mat-icon>
+  </div>
+  <div >
+    <P>Please enter the requested informaiton to find your contract</P>
+  </div>
+
+  
+  <div class="gRow" > 
+    <mat-form-field  appearance="outline">
+  
+        <mat-label>VIN (Last 7 Digits):</mat-label>
+
+     
+        <input type="text" matInput placeholder="VIN">
+        <mat-hint>Enter the last 7 digits of the VIN
+        </mat-hint>
+    </mat-form-field>
+  </div>
+
+  <div class="gRow" > 
+    <mat-form-field  appearance="outline">
+
+        <mat-label>First Name:</mat-label>
+
+   
+        <input type="text" matInput placeholder="First Name">
+   
+    </mat-form-field>
+  </div>
+
+
+  <div class="gRow" > 
+    <mat-form-field  appearance="outline">
+   
+        <mat-label>Last Name:</mat-label>
+  
+    
+        <input type="text" matInput placeholder="Last Name">
+  
+    </mat-form-field>
+  </div>
+  
+  <button mat-raised-button color="blue" (click)="goToVerify()">Search</button>
+</div>
+
+
+</html>

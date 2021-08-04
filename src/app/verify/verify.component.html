@@ -1,0 +1,29 @@
+<html>
+
+<div class="gContainer">
+  <div class="materialIcons">
+  <mat-icon class="icon-display right-Icon">fingerprint</mat-icon>
+  <mat-icon class="icon-display left-Icon"> message</mat-icon>
+  </div>
+  <div >
+    <P>Please check your phone for a security code and enter it to start teh transaction</P>
+  </div>
+
+  
+  <div class="gRow" > 
+    <mat-form-field  appearance="outline">
+  
+        <mat-label>Enter the security code:</mat-label>
+
+     
+        <input type="text" matInput placeholder="code">
+        <mat-hint>Enter the security code
+        </mat-hint>
+    </mat-form-field>
+  </div>
+  
+  <button mat-raised-button color="blue" (click)="goToVerify()">Submit</button>
+</div>
+
+
+</html>
